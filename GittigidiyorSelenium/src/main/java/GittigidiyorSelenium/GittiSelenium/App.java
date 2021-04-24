@@ -41,8 +41,8 @@ public class App
         action.moveToElement(girisMenu).moveToElement(driver.findElement(By.xpath("//*[@id=\"main-header\"]/div[3]/div/div/div/div[3]/div/div[1]/div[2]/div/div/div/a"))).click().build().perform();
         
         //login sayfası ve giriş
-        driver.findElement(By.xpath("//*[@id=\"L-UserNameField\"]")).sendKeys("huseyinhilall");
-        driver.findElement(By.xpath("//*[@id=\"L-PasswordField\"]")).sendKeys("005392014016");
+        driver.findElement(By.xpath("//*[@id=\"L-UserNameField\"]")).sendKeys("kullanıcı");
+        driver.findElement(By.xpath("//*[@id=\"L-PasswordField\"]")).sendKeys("sifre");
         driver.findElement(By.xpath("//*[@id=\"gg-login-enter\"]")).click();
         
         //arama 
@@ -95,9 +95,6 @@ public class App
         
     	//ürünü sil
     	driver.findElement(By.xpath("//*[@title=\"Sil\"]")).click();
-        
-    	
-      
         
       */
       

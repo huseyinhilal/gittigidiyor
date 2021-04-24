@@ -45,7 +45,12 @@ public class GittiTest {
         tool.clickOnElementByXpath("//*[@id=\"sp-addbasket-button\"]/form");
         
         //sepete git
-        tool.clickOnElementByXpath("//*[@id=\"header_wrapper\"]/div[4]/div[3]/div/a");
+
+        tool.hoverOnElementByXpath("//*[@id=\"header_wrapper\"]/div[4]/div[3]/a/div[1]/div");
+        //tool.clickOnElementByXpath("//*[@id=\"header_wrapper\"]/div[4]/div[3]/div/a");
+      
+        Thread.sleep(500);
+        tool.clickOnElementByXpath("//*[@id=\"header_wrapper\"]/div[4]/div[3]/div/div/div/div[2]/div[4]/div[1]/a");
         
       //ürünü sil
         tool.clickOnElementByXpath("//*[@title=\"Sil\"]");
